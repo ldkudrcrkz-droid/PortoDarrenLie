@@ -247,7 +247,7 @@ export const projects: Project[] = [
       "Assignment briefs are long, dense PDFs, and students often spend more time working out what is being asked than actually doing the work. A generic chatbot doesn't help much here because it has never seen the document and tends to answer from general knowledge instead of the brief in front of you.",
 
     solution:
-      "StudyFlow AI (AIStudyManager) takes an uploaded assignment PDF, indexes its content, and uses retrieval-augmented generation so the LLM answers from the document itself. It generates suggested questions straight from the PDF to get a student started. I'm currently migrating the vector storage to Supabase with pgvector.",
+      "StudyReader takes an uploaded assignment PDF, indexes its content, and uses retrieval-augmented generation so the LLM answers from the document itself. It generates suggested questions straight from the PDF to get a student started. I'm currently migrating the vector storage to Supabase with pgvector.",
 
     learnings:
       "Building it showed me that the quality of a RAG system depends as much on how the document is chunked and retrieved as on the LLM itself. Moving to a managed vector database is also teaching me how to structure storage for retrieval rather than just for saving data.",

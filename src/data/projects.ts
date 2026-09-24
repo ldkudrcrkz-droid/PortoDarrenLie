@@ -236,7 +236,7 @@ export const projects: Project[] = [
     n: "07",
     year: "2026",
     category: "LLM APPLICATION",
-    title: "STUDYFLOW AI",
+    title: "STUDYREADER",
     status: "COMPLETED",
     role: "AI Developer",
 

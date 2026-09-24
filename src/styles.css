@@ -186,8 +186,13 @@ main {
   padding: 20px clamp(20px, 5vw, 56px);
 
   background: rgba(5, 9, 13, 0.7);
-  backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--line);
+}
+
+@media (min-width: 861px) {
+  .topbar {
+    backdrop-filter: blur(14px);
+  }
 }
 
 .brand {
@@ -240,6 +245,7 @@ main {
   .nav {
     position: fixed;
     inset: 68px 0 0 0;
+    z-index: 45;
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
